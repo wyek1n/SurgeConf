@@ -1,8 +1,8 @@
 #!name=Fileball
-#!desc=Fileball_Ali
+#!desc=Ali
 
 [Script]
-Ali = type=http-response,pattern=^https?:\/\/.*\.example\.com,requires-body=true,max-size=0,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/ali.js,debug=false
+Fileball = type=http-response,pattern=^https?:\/\/.*\.example\.com,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/ali.js
 
 [MITM]
 hostname = *example.com
