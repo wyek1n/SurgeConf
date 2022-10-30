@@ -1,8 +1,8 @@
 #!name=Fileball
-#!desc=FB挂载阿里
+#!desc=Fileball_Ali
 
 [Script]
-阿里云盘 = type=http-request,pattern=^https?:\/\/.*\.example\.com,requires-body=1,max-size=0,timeout=10,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/ali.js
+Ali = type=http-response,pattern=^https?:\/\/.*\.example\.com,requires-body=true,max-size=0,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/ali.js,debug=false
 
 [MITM]
 hostname = *example.com
