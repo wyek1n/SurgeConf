@@ -2,7 +2,7 @@
 #!desc=Ali
 
 [Script]
-Fileball = type=http-response,pattern=^https?:\/\/.*\.example\.com,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/ali.js
+Fileball = type=http-response,pattern=^https?:\/\/.*\.example\.com,script-path=https://raw.githubusercontent.com/wyek1n/SurgeConf/main/ali.js
 
 [MITM]
 hostname = *example.com
