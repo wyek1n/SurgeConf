@@ -45,14 +45,14 @@ JP = url-test, policy-path=https://sub.store/download/collection/Surge, policy-r
 SG = url-test, policy-path=https://sub.store/download/collection/Surge, policy-regex-filter=坡|🇸🇬|新加坡|狮城|SG|Singapore, interval=600, tolerance=50, update-interval=43200, no-alert=1, hidden=0, include-all-proxies=0
 US = url-test, policy-path=https://sub.store/download/collection/Surge, policy-regex-filter=美|🇺🇸|美国|US|States|American, interval=600, tolerance=50, update-interval=43200, no-alert=1, hidden=0, include-all-proxies=0
 CN = select, DIRECT, hidden=1
-Apple = select, CN, HK, TW, SG, JP, US
-Bilibili = select, CN, HK, TW
-Disney = select, HK, SG
-Netflix = select, HK, TW, SG, JP, US
-Speedtest = select, CN, Auto, AllServer
-Telegram = load-balance, SG, persistent=1
-YouTube = select, Auto, HK, TW, SG, JP, US
-Weibo = select, CN, HK, TW, SG, JP, US, AllServer
+Apple = select, Auto, CN, HK, TW, SG, JP, US, AllServer
+Bilibili = select, Auto, CN, HK, TW, SG, JP, US, AllServer
+Disney = select, Auto, CN, HK, TW, SG, JP, US, AllServer
+Netflix = select, Auto, CN, HK, TW, SG, JP, US, AllServer
+Speedtest = select, Auto, CN, HK, TW, SG, JP, US, AllServer
+Telegram = select, Auto, CN, HK, TW, SG, JP, US, AllServer
+YouTube = select, Auto, CN, HK, TW, SG, JP, US, AllServer
+Weibo = select, Auto, CN, HK, TW, SG, JP, US, AllServer
 
 [Rule]
 # ban UDP on Youtube
