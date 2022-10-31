@@ -38,7 +38,7 @@ keyword-filter-type = false
 Final = select, CN, Proxy //final 策略组
 AllServer = select, policy-path=https://sub.store/download/collection/Surge, update-interval=0, no-alert=0, hidden=0
 Auto = url-test, policy-path=https://sub.store/download/collection/Surge, url=http://cp.cloudflare.com/generate_204, interval=600, tolerance=50
-Proxy = fallback, policy-path=https://sub.store/download/Surge, url=http://cp.cloudflare.com/generate_204, interval=600, tolerance=50, hidden=0
+Proxy = fallback, policy-path=https://sub.store/download/collection/Surge, url=http://cp.cloudflare.com/generate_204, interval=600, tolerance=50, hidden=0
 HK = url-test, policy-path=https://sub.store/download/collection/Surge, policy-regex-filter=港|🇭🇰|香港|HK|Hong, interval=200, tolerance=50, update-interval=43200, no-alert=1, hidden=0, include-all-proxies=0
 TW = url-test, policy-path=https://sub.store/download/collection/Surge, policy-regex-filter=台|🇨🇳|🇹🇼|台湾|TW|Tai, interval=600, tolerance=50, update-interval=43200, no-alert=1, hidden=0, include-all-proxies=0
 JP = url-test, policy-path=https://sub.store/download/collection/Surge, policy-regex-filter=日|🇯🇵|日本|JP|Japan, interval=600, tolerance=50, update-interval=43200, no-alert=1, hidden=0, include-all-proxies=0
