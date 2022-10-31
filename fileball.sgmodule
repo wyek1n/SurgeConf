@@ -5,4 +5,4 @@
 Fileball = type=http-response,pattern=^https?:\/\/.*\.example\.com,script-path=https://raw.githubusercontent.com/wyek1n/SurgeConf/main/ali.js
 
 [MITM]
-hostname = *example.com
+hostname = %APPEND% *example.com
