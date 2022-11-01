@@ -18,7 +18,7 @@
 # Surge
  
 [Script]
-阿里云盘 = type=http-request,pattern=^https?:\/\/.*\.example\.com,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/ali.js
+阿里云盘 = type=http-request,pattern=^https?:\/\/.*\.example\.com,requires-body=1,max-size=0,timeout=10,script-path=https://raw.githubusercontent.com/wyek1n/SurgeConf/main/ali.js
 
 [MITM]
 hostname = *example.com
