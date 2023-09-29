@@ -1,0 +1,29 @@
+{
+  "title": "zoom in",
+  "rules": [
+    {
+      "zoom in",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "page_up",
+            "modifiers": {
+              "optional": [
+                "caps_lock"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
