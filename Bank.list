@@ -1,4 +1,4 @@
-# NAME: capital one
+# NAME: Bank
 # AUTHOR: wyek1n
 # UPDATED: 2024-01-14
 # DOMAIN: 1
@@ -21,3 +21,9 @@ DOMAIN-SUFFIX,omtrdc.net
 DOMAIN-SUFFIX,edge.nc0.co	
 DOMAIN-SUFFIX,demdex.net	
 DOMAIN-SUFFIX,cloud-fdc.com
+DOMAIN,www.wise.com
+DOMAIN-SUFFIX,wise.com
+DOMAIN,www.ocbc.com
+DOMAIN,www.ocbc.com.sg
+DOMAIN-SUFFIX,ocbc.com.sg
+DOMAIN-SUFFIX,ocbc.com
